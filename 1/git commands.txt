@@ -1,0 +1,24 @@
+git init -> initialize local git repo
+git status -> show uncommited chages
+git add filename(directory) -> stage chages
+git commit -m "Commit name" -> make commit
+git commit --amend -> update previous commit
+git log -> show commits
+git diff -> show changes since last commit
+git reset HEAD (--mixed) -> undo staging
+git reset HEAD --hard -> undo staging and changes
+git reset HEAD --soft -> staging and changes are kept
+
+
+git remote -v -> list remote repositories
+git remote add <repo-name> -> add remote repository
+git push <repo-name> <branch> -> push changes from local repo to remote repo
+git pull <repo-name> <branch> -> pull changes from remote repo to local repo
+
+
+git branch -> list local branches
+git branch <name> -> create new branch
+git checkout <name> -> switch branch
+git checkout -b <name> -> create new branch and checkout
+
+.gitignore -> add untracked files here
