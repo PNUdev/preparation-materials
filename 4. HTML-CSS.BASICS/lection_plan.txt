@@ -1,0 +1,15 @@
+1. Що таке HTML документ. Структура HTML Документу.
+  a) doctype
+  b) head
+    metadata (приклад)
+    viewport (приклад)
+    link
+2. Стилі. CSS файли. Дефолтні стилі тегів. (https://www.w3schools.com/cssref/css_default_values.asp)
+3. Побудова архітектури на прикладах.
+4. Margin, padding. Накладання.
+5. Display. Block, inline, inline-block
+6. FlexBox (http://css-live.ru/wp-content/uploads/2014/10/flexboxsheet-small__5.png)
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');

@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100vh;
+  font-family: "Sofia";
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .header__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .menu ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+header .menu ul li {
+  list-style-type: none;
+}
+
+
+main .banner {
+  height: 500px;
+  background-image: url('https://p.bigstockphoto.com/GeFvQkBbSLaMdpKXF1Zv_bigstock-Aerial-View-Of-Blue-Lakes-And--227291596.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
