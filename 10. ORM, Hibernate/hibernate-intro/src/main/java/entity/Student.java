@@ -12,6 +12,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 
 @Data
 @NoArgsConstructor
@@ -28,6 +29,7 @@ public class Student {
     private String firstName;
     @NotBlank
     private String lastName;
+    @Size(min = 4, max = 16)
     private String password;
     private Integer age;
     @ManyToOne

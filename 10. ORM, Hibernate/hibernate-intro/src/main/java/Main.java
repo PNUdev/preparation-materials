@@ -109,11 +109,11 @@ public class Main {
 
         //success
         ValidationUtil.validate(university2);
-        //error
+        //error due to null name
         university2.setName(null);
         ValidationUtil.validate(university2);
-
-      //  ValidationUtil.validate(student4);
+        //error due to pass, fName,lName
+        ValidationUtil.validate(student4);
 
         //<===5===> HQL
         Student student5 = Student.builder()
