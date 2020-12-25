@@ -1,0 +1,172 @@
+{
+	"id": "35a30be8-6c0a-b259-5fda-5f631ea9776b",
+	"name": "spring-jdbc-intro",
+	"description": "",
+	"order": [
+		"2477841b-05df-a1f1-f953-08cdaf2d247b",
+		"9d64a4fb-6aca-bdf1-5a48-49c4ec921589",
+		"6e62924f-f05b-8af8-a5c5-8c23f2ca3ebb",
+		"ab474222-2887-c4cd-b6eb-159999f07700",
+		"2ab36a3b-a5fa-f579-96b2-fc17d00c987f"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1608915559651,
+	"owner": "9411370",
+	"public": false,
+	"requests": [
+		{
+			"id": "2477841b-05df-a1f1-f953-08cdaf2d247b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1608918627102,
+			"name": "getById",
+			"description": "",
+			"collectionId": "35a30be8-6c0a-b259-5fda-5f631ea9776b",
+			"responses": [],
+			"rawModeData": "{\n\t\"firstName\":\"111\",\n\t\"lastName\":\"222\"\n}"
+		},
+		{
+			"id": "2ab36a3b-a5fa-f579-96b2-fc17d00c987f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "35a30be8-6c0a-b259-5fda-5f631ea9776b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "getAll",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1608920067363,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"firstName\":\"111\",\n\t\"lastName\":\"222\"\n}"
+		},
+		{
+			"id": "6e62924f-f05b-8af8-a5c5-8c23f2ca3ebb",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/users/4",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "35a30be8-6c0a-b259-5fda-5f631ea9776b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "update",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1608918696843,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"firstName\":\"111-222\",\n\t\"lastName\":\"222\"\n}"
+		},
+		{
+			"id": "9d64a4fb-6aca-bdf1-5a48-49c4ec921589",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "35a30be8-6c0a-b259-5fda-5f631ea9776b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "create",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1608918640411,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"firstName\":\"111\",\n\t\"lastName\":\"222\"\n}"
+		},
+		{
+			"id": "ab474222-2887-c4cd-b6eb-159999f07700",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/users/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "35a30be8-6c0a-b259-5fda-5f631ea9776b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "delete",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1608918990361,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"firstName\":\"111-222\",\n\t\"lastName\":\"222\"\n}"
+		}
+	]
+}
