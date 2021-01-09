@@ -1,0 +1,11 @@
+spring:
+  flyway:
+    out-of-order: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/flyway_demo?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
